@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #222;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.barra-navegacion {
+	background-color: #333;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+.barra-navegacion div {
+	cursor: pointer;
+	font-size: 18px;
+	transition: color 0.3s;
+}
+
+.barra-navegacion div:hover {
+	color: #ff6600;
+}
+
+.caja-principal {
+	background-color: #444;
+	padding: 20px;
+	text-align: center;
+}
+
+
+#barra-selectora,#barra-bucles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+#barra-selectora div,#barra-bucles div {
+	cursor: pointer;
+	background-color: #ff6600;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 10px;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s;
+}
+
+#barra-selectora div:hover,#barra-bucles div:hover {
+	background-color: #ff9900;
+}
+
+.retroceder {
+	background-image: url('img/retroceder.png');
+	background-size: 100% 100%;
+}
+
+.play-pause {
+	background-image: url('img/pause-play.png');
+	background-size: 100% 100%;
+}
+
+.avanzar {
+	background-image: url('img/avanzar.png');
+	background-size: 100% 100%;
+}
+
+.bucle {
+	background-image: url('img/bucle.png');
+	background-size: 100% 100%;
+}
+
+.aleatorio {
+	background-image: url('img/aleatorio.png');
+	background-size: 100% 100%;
+}
+
+.hover-naranja {
+	color: orange;
+	cursor: pointer;
+}
