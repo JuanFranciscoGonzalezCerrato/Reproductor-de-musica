@@ -28,9 +28,13 @@ body {
 }
 
 .caja-principal {
-	background-color: #444;
-	padding: 20px;
-	text-align: center;
+    display: flex;
+    height: 80vh;
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
